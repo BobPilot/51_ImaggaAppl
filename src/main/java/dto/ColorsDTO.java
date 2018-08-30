@@ -27,13 +27,10 @@ public class ColorsDTO {
 
     @Override
     public String toString() {
-
-        DecimalFormat decimalFormat = new DecimalFormat("#0.00");
-        String perc = percentage == 0 ? decimalFormat.format(percent) : decimalFormat.format(percentage);
-
+        
         return tableFormat(closest_palette_color)
                 + tableFormat(closest_palette_color_parent)
-                + perc + "\n";
+                + (percentage + percent) + "\n";                    
     }
 
 
