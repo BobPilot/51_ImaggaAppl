@@ -2,6 +2,8 @@ package dto;
 
 import java.text.DecimalFormat;
 
+import static controller.ColorAppl.tableFormat;
+
 public class ColorsDTO {
 
     private String closest_palette_color_parent;
@@ -27,24 +29,10 @@ public class ColorsDTO {
 
     @Override
     public String toString() {
-        
+
         return tableFormat(closest_palette_color)
                 + tableFormat(closest_palette_color_parent)
-                + (percentage + percent) + "\n";                    
+                + (percent + percentage) + "\n";
     }
 
-
-    private String tableFormat (String word){
-
-        int size = 20;
-        int plus = size - word.length();
-
-        StringBuilder newWord = new StringBuilder(word);
-
-        for (int i = 0; i < plus; i++) {
-            newWord.append(" ");
-        }
-
-        return newWord.toString();
-    }
 }

@@ -2,6 +2,8 @@ package dto;
 
 import java.util.Arrays;
 
+import static controller.ColorAppl.tableFormat;
+
 public class InfoDTO {
 
     private ColorsDTO [] background_colors;
@@ -23,7 +25,9 @@ public class InfoDTO {
     @Override
     public String toString() {
 
-        String tableFormat = "\nCOLOR NAME\t\tPARENT COLOR NAME\t\tCOVERAGE PERSENT\n";
+        String tableFormat = "\n" + tableFormat("COLOR NAME")
+                + tableFormat("PARENT COLOR NAME")
+                + tableFormat("COVERAGE PERSENT") + "\n";
 
         StringBuilder sb = new StringBuilder();
         sb.append(tableFormat);
