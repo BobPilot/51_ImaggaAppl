@@ -1,0 +1,107 @@
+{
+  "results": [
+    {
+      "info": {
+        "background_colors": [
+          {
+            "b": "146",
+            "g": "121",
+            "closest_palette_distance": 6.607301706546877,
+            "closest_palette_color_parent": "blue",
+            "r": "82",
+            "html_code": "#527992",
+            "closest_palette_color_html_code": "#6e7e99",
+            "closest_palette_color": "larkspur",
+            "percentage": 48.45
+          },
+          {
+            "b": "46",
+            "g": "90",
+            "closest_palette_distance": 2.002274829533564,
+            "closest_palette_color_parent": "skin",
+            "r": "137",
+            "html_code": "#895a2e",
+            "closest_palette_color_html_code": "#8c5e37",
+            "closest_palette_color": "light bronze",
+            "percentage": 40.69
+          },
+          {
+            "b": "40",
+            "g": "57",
+            "closest_palette_distance": 5.354274164081393,
+            "closest_palette_color_parent": "brown",
+            "r": "84",
+            "html_code": "#543928",
+            "closest_palette_color_html_code": "#584039",
+            "closest_palette_color": "brownie",
+            "percentage": 10.87
+          }
+        ],
+        "color_variance": "36",
+        "object_percentage": "1.87",
+        "image_colors": [
+          {
+            "b": "45",
+            "g": "83",
+            "percent": 51.58,
+            "closest_palette_color_parent": "skin",
+            "r": "126",
+            "html_code": "#7e532d",
+            "closest_palette_color_html_code": "#7c5a2c",
+            "closest_palette_color": "medium brown",
+            "closest_palette_distance": 4.145651666822446
+          },
+          {
+            "b": "145",
+            "g": "121",
+            "percent": 48.26,
+            "closest_palette_color_parent": "blue",
+            "r": "83",
+            "html_code": "#537991",
+            "closest_palette_color_html_code": "#6e7e99",
+            "closest_palette_color": "larkspur",
+            "closest_palette_distance": 6.643697722134033
+          }
+        ],
+        "color_percent_threshold": 1.75,
+        "foreground_colors": [
+          {
+            "b": "52",
+            "g": "71",
+            "closest_palette_distance": 3.039462934725978,
+            "closest_palette_color_parent": "brown",
+            "r": "100",
+            "html_code": "#644734",
+            "closest_palette_color_html_code": "#5d473a",
+            "closest_palette_color": "latte",
+            "percentage": 46.46
+          },
+          {
+            "b": "143",
+            "g": "162",
+            "closest_palette_distance": 4.221605143329623,
+            "closest_palette_color_parent": "light brown",
+            "r": "186",
+            "html_code": "#baa28f",
+            "closest_palette_color_html_code": "#baaa91",
+            "closest_palette_color": "champagne",
+            "percentage": 29.38
+          },
+          {
+            "b": "56",
+            "g": "58",
+            "closest_palette_distance": 2.872321483837041,
+            "closest_palette_color_parent": "black",
+            "r": "63",
+            "html_code": "#3f3a38",
+            "closest_palette_color_html_code": "#3a3536",
+            "closest_palette_color": "graphite",
+            "percentage": 24.16
+          }
+        ]
+      },
+      "image": "https://imagga.com/static/images/tagging/wind-farm-538576_640.jpg"
+    }
+  ],
+  "unsuccessful": []
+}
